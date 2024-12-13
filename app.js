@@ -7,7 +7,7 @@ const app=express();
 
 
 app.use(cors({
-  origin: 'https://wcommerce.netlify.app',
+  origin: 'https://cerulean-boba-ca059b.netlify.app/',
   credentials: true
 }));
 app.use(express.json());
